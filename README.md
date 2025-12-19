@@ -1,6 +1,6 @@
-# @funboxteam/scss-vars-loader
+# @necrobox/scss-vars-loader
 
-[![npm](https://img.shields.io/npm/v/@funboxteam/scss-vars-loader.svg)](https://www.npmjs.com/package/@funboxteam/scss-vars-loader)
+[![npm](https://img.shields.io/npm/v/@necrobox/scss-vars-loader.svg)](https://www.npmjs.com/package/@necrobox/scss-vars-loader)
 
 Webpack loader that injects `$b` variable declaration to the processed files with the name of the current BEM block
 as a value.
@@ -21,7 +21,7 @@ of the selector there.
 Install the loader in your project:
 
 ```bash
-npm install --save-dev @funboxteam/scss-vars-loader
+npm install --save-dev @necrobox/scss-vars-loader
 ```
 
 Add it into the project's Webpack config so that it is called before sass-loader:
@@ -36,7 +36,7 @@ module.exports = {
         use: [
           // ...
           'sass-loader',
-          '@funboxteam/scss-vars-loader',
+          '@necrobox/scss-vars-loader',
           // ...
         ],
       },

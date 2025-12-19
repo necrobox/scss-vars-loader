@@ -1,6 +1,6 @@
-# @funboxteam/scss-vars-loader
+# @necrobox/scss-vars-loader
 
-[![npm](https://img.shields.io/npm/v/@funboxteam/scss-vars-loader.svg)](https://www.npmjs.com/package/@funboxteam/scss-vars-loader)
+[![npm](https://img.shields.io/npm/v/@necrobox/scss-vars-loader.svg)](https://www.npmjs.com/package/@necrobox/scss-vars-loader)
 
 Лоадер для Вебпака, добавляющий в обрабатываемые файлы переменную `$b` с именем текущего БЭМ-блока в качестве значения.
 
@@ -17,7 +17,7 @@
 Установить лоадер в проекте:
 
 ```bash
-npm install --save-dev @funboxteam/scss-vars-loader
+npm install --save-dev @necrobox/scss-vars-loader
 ```
 
 Подключить в конфиге Вебпака так, чтобы он вызывался перед sass-loader:
@@ -32,7 +32,7 @@ module.exports = {
         use: [
           // ...
           'sass-loader',
-          '@funboxteam/scss-vars-loader',
+          '@necrobox/scss-vars-loader',
           // ...
         ],
       },
