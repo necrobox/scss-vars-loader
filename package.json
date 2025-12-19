@@ -1,6 +1,6 @@
 {
   "name": "@necrobox/scss-vars-loader",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "SCSS variables for BEM blocks",
   "license": "MIT",
   "author": "Igor Adamenko <mail@igoradamenko.com> (https://igoradamenko.com)",
