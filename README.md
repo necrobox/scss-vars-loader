@@ -7,16 +7,7 @@ as a value.
 
 [По-русски](./README.ru.md)
 
-## Rationale
-
-When we develop web apps we use BEM on filesystem. Sometimes blocks become too huge to handle them easily,
-and when you suddenly need to rename one, you have to rewrite the name in every file. To make it a bit easier
-we decided to unify block name in SCSS files by `$b` variable.
-
-At the same time it allows us to generate SCSS files using templates and not to care about the proper name 
-of the selector there. 
-
-## Getting Started
+## Getting started
 
 Install the loader in your project:
 
@@ -54,6 +45,15 @@ Use `$b` to construct SCSS selectors:
   color: red;
 }
 ```
+
+## Rationale
+
+When we develop web apps we use BEM on filesystem. Sometimes blocks become too huge to handle them easily,
+and when you suddenly need to rename one, you have to rewrite the name in every file. To make it a bit easier
+we decided to unify block name in SCSS files by `$b` variable.
+
+At the same time it allows us to generate SCSS files using templates and not to care about the proper name
+of the selector there.
 
 ## Implementation details
 
