@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.0.0 (19.12.2025)
+
+Moved package from @funboxteam to @necrobox scope.
+
+
 ## 2.2.0 (23.10.2020)
 
 Improved performance. Now the loader works at least two times faster!
