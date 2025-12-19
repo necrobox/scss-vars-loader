@@ -66,5 +66,3 @@ $b: 'blockname';
 To find out the name of the current BEM block properly, the loader goes though the path of the processed file
 from right to left and searches the first directory name which does not start with `_` and uses such directory
 as a value for `$b`.
-
-[![Sponsored by FunBox](https://funbox.ru/badges/sponsored_by_funbox_centered.svg)](https://funbox.ru)
