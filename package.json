@@ -11,8 +11,5 @@
   "main": "index.js",
   "files": [
     "index.js"
-  ],
-  "scripts": {
-    "prepublishOnly": "if [ -z \"$CI\" ]; then lawyer; fi"
-  }
+  ]
 }
